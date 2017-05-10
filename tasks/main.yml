@@ -1,0 +1,11 @@
+---
+# tasks file for ansible-role-kubeadm
+- apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - apt-transport-https
+
+- apt_key:
+    url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    state: present
