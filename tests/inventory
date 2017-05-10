@@ -1,2 +1,5 @@
-localhost
-
+[test]
+n0.vagrant.test ansible_user=vagrant ansible_ssh_pass=vagrant
+n1.vagrant.test ansible_user=vagrant ansible_ssh_pass=vagrant
+n2.vagrant.test ansible_user=vagrant ansible_ssh_pass=vagrant
+n3.vagrant.test ansible_user=vagrant ansible_ssh_pass=vagrant
